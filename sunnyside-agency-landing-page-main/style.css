@@ -101,6 +101,7 @@ header .button:hover{
 .cellsthree .imagethree{
     background-image: url("/images/desktop/image-graphic-design.jpg");
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -117,6 +118,7 @@ header .button:hover{
 .cellsthree .imagefour{
     background-image: url("/images/desktop/image-photography.jpg");
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
