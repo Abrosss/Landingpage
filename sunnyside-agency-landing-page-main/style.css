@@ -96,6 +96,7 @@ header .button:hover{
     background-image: url("/images/desktop/image-stand-out.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
 }
 .cellsthree .imagethree{
