@@ -18,7 +18,7 @@ p{
 .header{
     background: url("/images/desktop/image-header.jpg");
     background-size: cover;
-    background-position: -1rem;
+    background-position: center center;
     text-align: center;
     height: 60rem;
 }
