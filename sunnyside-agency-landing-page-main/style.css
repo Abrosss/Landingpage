@@ -3,14 +3,14 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: 0 20%;
-}
+} */
 p{
     font-family: 'Barlow', sans-serif;
     color: hsl(213, 9%, 39%);
@@ -20,7 +20,7 @@ p{
     background-size: cover;
     background-position: -1rem;
     text-align: center;
-    height: 40rem;
+    height: 60rem;
 }
 header{
     padding: 2rem 3rem;
@@ -31,7 +31,7 @@ nav a{
     margin: 0 1rem;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 header nav{
     display: flex;
@@ -67,30 +67,31 @@ header .button:hover{
     color: white;
 }
 #maintitle{
-    margin-top: 5rem;
+    margin-top: 7rem;
     font-family: 'Fraunces', sans-serif;
     letter-spacing: 0.5rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
 }
 .arrow{
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 .cellsone, .cellstwo, .cellsthree{
     display: flex;
 }
 .cellsone section, .cellstwo section{
     width: 50%;
-    height: 30rem;
+    height: 40rem;
 }
 .cellsthree section{
     width: 50%;
-    height: 32rem;
+    height: 40rem;
 }
 .cellsone .imageone{
     background-image: url("/images/desktop/image-transform.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .cellstwo .imagetwo{
     background-image: url("/images/desktop/image-stand-out.jpg");
@@ -114,7 +115,7 @@ header .button:hover{
 
 .cellsthree .textthree{
     height: auto;
-    margin-top: 20rem;
+    margin-top: 27rem;
 }
 .cellsthree .imagefour{
     background-image: url("/images/desktop/image-photography.jpg");
@@ -129,7 +130,7 @@ header .button:hover{
 }
 .cellsthree .textfour{
     height: auto;
-    margin-top: 20rem;
+    margin-top: 27rem;
 }
 .cellsone .text, .cellstwo .text{
     padding: 10% 10%;
@@ -195,6 +196,7 @@ header .button:hover{
 .textthree p, .textfour p{
     font-family: 'Barlow', sans-serif;
     color: hsl(167, 40%, 24%);
+    line-height: 1.5;
 }
 .clients{
     width: 100%;
@@ -249,7 +251,7 @@ header .button:hover{
 }
 .imagesonly section{
     width: 25%;
-    height: 25rem;
+    height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -307,9 +309,7 @@ footer a:hover{
 .navfooter{
     margin-top: 2rem;
 }
-.cellstwo .text span{
-    display: inline;
-}
+
 
 @media screen and (max-width: 700px)
 {
