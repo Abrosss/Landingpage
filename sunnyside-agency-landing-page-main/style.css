@@ -421,8 +421,7 @@ nav .button{
         height: 22rem;
     }
     .text a::after{
-       left:6rem;
-        width: 40%
+        width: 100%
     }
     .cellstwo.imagetwo{
         background-image: url("/images/mobile/image-stand-out.jpg");
@@ -430,7 +429,7 @@ nav .button{
         background-repeat: no-repeat;
     }
     .text .underlineRed::after{
-        width: 40%;
+        width: 100%;
     }
     .cellstwo .text{
         padding-top: 15%;
